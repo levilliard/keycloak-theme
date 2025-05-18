@@ -1,0 +1,94 @@
+/* Variables de couleurs UEH */
+:root {
+    --ueh-blue: #477f94;
+    --ueh-red: #d52b1e;
+    --ueh-gold: #ffc72c;
+    --ueh-dark: #1a2e35;
+    --ueh-light: #f8f9fa;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--ueh-light);
+    color: var(--ueh-dark);
+}
+
+header {
+    background-color: var(--ueh-blue);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    max-width: 200px;
+    margin: 0 auto 2rem;
+    display: block;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+h2 {
+    color: var(--ueh-blue);
+    margin-top: 0;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+a.btn-primary {
+    display: inline-block;
+    background-color: var(--ueh-blue);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+a.btn-primary:hover {
+    background-color: #3a6a7d;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .logo {
+        max-width: 150px;
+    }
+    
+    .card {
+        padding: 1.5rem;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1.3rem;
+    }
+}

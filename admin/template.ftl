@@ -13,7 +13,7 @@
 <body class="admin-console user ${bodyClass}">
     <header class="navbar navbar-default navbar-pf navbar-main header">
         <div class="navbar-title">
-            <h1>UEH - Keycloak Admin Console</h1>
+            <h1>UEH - Serveurs d'identité</h1>
         </div>
     </header>
     <div class="container-fluid">

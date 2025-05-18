@@ -1,0 +1,60 @@
+/* UEH Theme for Keycloak Account Console */
+:root {
+    --ueh-blue: #477f94;
+    --ueh-red: #d52b1e;
+    --ueh-gold: #ffc72c;
+    --ueh-dark: #1a2e35;
+    --ueh-light: #f8f9fa;
+}
+
+/* Override primary colors with UEH blue */
+.pf-c-button.pf-m-primary {
+    background-color: var(--ueh-blue) !important;
+    border-color: var(--ueh-blue) !important;
+}
+
+.pf-c-button.pf-m-primary:hover {
+    background-color: #3a6a7d !important;
+    border-color: #3a6a7d !important;
+}
+
+/* Links */
+a {
+    color: var(--ueh-blue) !important;
+}
+
+a:hover {
+    color: #3a6a7d !important;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--ueh-dark) !important;
+}
+
+/* Navigation */
+.pf-c-nav__item.pf-m-current .pf-c-nav__link {
+    color: var(--ueh-blue) !important;
+    border-left-color: var(--ueh-blue) !important;
+}
+
+/* Form controls */
+.pf-c-form-control:focus {
+    border-color: var(--ueh-blue) !important;
+    box-shadow: 0 0 0 0.25rem rgba(71, 127, 148, 0.25) !important;
+}
+
+/* Custom UEH branding */
+.pf-c-page__header {
+    background-color: var(--ueh-dark) !important;
+}
+
+.pf-c-page__header-brand-link img {
+    max-height: 40px;
+}
+
+/* Footer styling */
+.pf-c-page__footer {
+    background-color: var(--ueh-light) !important;
+    color: var(--ueh-dark) !important;
+}
