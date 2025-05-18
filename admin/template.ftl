@@ -6,13 +6,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${msg("adminConsole")} - ${realm.name}</title>
-    <link rel="icon" href="${adminConsole.resourcesPath}/img/logo.png">
-    <#if properties.styles?has_content>
-        <#list properties.styles?split(' ') as style>
-            <link href="${adminConsole.resourcesPath}/${style}" rel="stylesheet" />
-        </#list>
-    </#if>
+    <title>Console d'administration - UEH</title>
+    <link rel="icon" href="../login/resources/img/logo.png">
+    <link href="../login/resources/css/ueh-theme.css" rel="stylesheet" />
 </head>
 <body class="admin-console user ${bodyClass}">
     <header class="navbar navbar-default navbar-pf navbar-main header">
