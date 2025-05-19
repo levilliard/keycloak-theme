@@ -1,0 +1,6 @@
+embed-server
+/subsystem=keycloak-server/theme=defaults:write-attribute(name=welcomeTheme, value=ueh-theme)
+/subsystem=keycloak-server/theme=defaults:write-attribute(name=accountTheme, value=ueh-theme)
+/subsystem=keycloak-server/theme=defaults:write-attribute(name=adminTheme, value=ueh-theme)
+/subsystem=keycloak-server/theme=defaults:write-attribute(name=emailTheme, value=ueh-theme)
+/subsystem=keycloak-server/theme=defaults:write-attribute(name=loginTheme, value=ueh-theme)
